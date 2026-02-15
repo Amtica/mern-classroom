@@ -1,1 +1,63 @@
-{\n  "name": "mern-classroom",\n  "version": "2.0.0",\n  "description": "A MERN stack based online classroom application",\n  "author": "Shama Hoque",\n  "license": "MIT",\n  "keywords": [\n    "react",\n    "express",\n    "mongodb",\n    "node",\n    "mern"\n  ],\n  "repository": {\n    "type": "git",\n    "url": "https://github.com/shamahoque/mern-classroom.git"\n  },\n  "homepage": "https://github.com/shamahoque/mern-classroom",\n  "main": "./dist/server.generated.js",\n  "scripts": {\n    "development": "nodemon",\n    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",\n    "start": "NODE_ENV=production node ./dist/server.generated.js"\n  },\n  "engines": {\n    "node": "20.15.1",\n    "npm": "10.7.0"\n  },\n  "devDependencies": {\n    "@babel/core": "^7.24.0",\n    "@babel/preset-env": "^7.24.0",\n    "@babel/preset-react": "^7.23.0",\n    "babel-loader": "^9.1.3",\n    "file-loader": "^6.2.0",\n    "nodemon": "^3.1.0",\n    "webpack": "^5.90.0",\n    "webpack-cli": "^5.1.4",\n    "webpack-dev-middleware": "^7.0.0",\n    "webpack-hot-middleware": "^2.26.0",\n    "webpack-node-externals": "^3.0.0"\n  },\n  "dependencies": {\n    "@hot-loader/react-dom": "^17.0.2",\n    "@material-ui/core": "^4.12.4",\n    "@material-ui/icons": "^4.11.3",\n    "compression": "^1.7.4",\n    "cookie-parser": "^1.4.6",\n    "cors": "2.8.5",\n    "dotenv": "17.2.3",\n    "express": "5.2.1",\n    "express-jwt": "^8.4.1",\n    "formidable": "^3.5.1",\n    "helmet": "^7.1.0",\n    "jsonwebtoken": "^9.0.2",\n    "lodash": "^4.17.21",\n    "mongoose": "9.1.3",\n    "react": "^17.0.2",\n    "react-dom": "^17.0.2",\n    "react-hot-loader": "^4.13.1",\n    "react-router": "^5.3.4",\n    "react-router-dom": "^5.3.4"\n  }\n}
+{
+  "name": "mern-classroom",
+  "version": "2.0.0",
+  "description": "A MERN stack based online classroom application",
+  "author": "Shama Hoque",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "node",
+    "mern"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamahoque/mern-classroom.git"
+  },
+  "homepage": "https://github.com/shamahoque/mern-classroom",
+  "main": "./dist/server.generated.js",
+  "scripts": {
+    "development": "nodemon",
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
+    "start": "NODE_ENV=production node ./dist/server.generated.js"
+  },
+  "engines": {
+    "node": "20.15.1",
+    "npm": "10.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.0",
+    "babel-loader": "^9.1.3",
+    "file-loader": "^6.2.0",
+    "nodemon": "^3.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^7.2.0",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^17.0.2",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "2.8.5",
+    "dotenv": "17.2.3",
+    "express": "5.2.1",
+    "express-jwt": "^8.4.1",
+    "formidable": "^3.5.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "9.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-loader": "^4.13.1",
+    "react-router": "^6.23.0",
+    "react-router-dom": "^6.23.0"
+  }
+}
